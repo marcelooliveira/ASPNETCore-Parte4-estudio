@@ -7,6 +7,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Item00 - O Projeto Inicial"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasaDoCodigo.MVC", "Item00\CasaDoCodigo\CasaDoCodigo.MVC.csproj", "{DCF48943-83F5-4E44-B7E1-AE52B67644AB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Item01 - Criando Web API de Relatório", "Item01 - Criando Web API de Relatório", "{89428584-1848-4595-8429-B24EDC7BA556}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasaDoCodigo.MVC", "Item01\CasaDoCodigo\CasaDoCodigo.MVC.csproj", "{4B651F50-D0A2-49F9-95A5-92AE57F48B60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasaDoCodigo.RelatorioWebAPI", "Item01\CasaDoCodigo.RelatorioWebAPI\CasaDoCodigo.RelatorioWebAPI.csproj", "{BA786BDD-27ED-4AA3-A486-1B5E6A97786E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +23,21 @@ Global
 		{DCF48943-83F5-4E44-B7E1-AE52B67644AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCF48943-83F5-4E44-B7E1-AE52B67644AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCF48943-83F5-4E44-B7E1-AE52B67644AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B651F50-D0A2-49F9-95A5-92AE57F48B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B651F50-D0A2-49F9-95A5-92AE57F48B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B651F50-D0A2-49F9-95A5-92AE57F48B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B651F50-D0A2-49F9-95A5-92AE57F48B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA786BDD-27ED-4AA3-A486-1B5E6A97786E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA786BDD-27ED-4AA3-A486-1B5E6A97786E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA786BDD-27ED-4AA3-A486-1B5E6A97786E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA786BDD-27ED-4AA3-A486-1B5E6A97786E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DCF48943-83F5-4E44-B7E1-AE52B67644AB} = {F27E3D4C-1B88-402F-AAE3-BF748893E5C2}
+		{4B651F50-D0A2-49F9-95A5-92AE57F48B60} = {89428584-1848-4595-8429-B24EDC7BA556}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {398437CA-EB7F-4F16-ACEE-7A7D1534AD08}
