@@ -19,17 +19,28 @@ namespace CasaDoCodigo
         private const string RelativeUri = "api/relatorio";
         private readonly IConfiguration configuration;
 
-        public RelatorioHelper(IConfiguration configuration)
+        //PROBLEMA: NÃO DETECTA MUDANÇAS NO DNS
+        //private static HttpClient httpClient;
+
+        private readonly HttpClient httpClient;
+
+        public RelatorioHelper(IConfiguration configuration,
+            HttpClient httpClient)
         {
             this.configuration = configuration;
+            this.httpClient = httpClient;
         }
 
         public async Task GerarRelatorio(Pedido pedido)
         {
             string linhaRelatorio = await GetLinhaRelatorio(pedido);
 
-            using (HttpClient httpClient = new HttpClient())
-            {
+            //PROBLEMA: EXAUSTÃO DE SOCKET
+            //using (HttpClient httpClient = new HttpClient())
+
+
+            //using (HttpClient httpClient = HttpClientFactory.Create())
+            //{
                 //o texto do conteúdo (JSON)
                 var json = JsonConvert.SerializeObject(linhaRelatorio);
                 //o objeto HttpContent que empacota o texto (application/json)
@@ -48,7 +59,7 @@ namespace CasaDoCodigo
                 {
                     throw new ApplicationException(httpResponseMessage.ReasonPhrase);
                 }
-            }
+            //}
         }
 
         private async Task<string> GetLinhaRelatorio(Pedido pedido)
