@@ -27,7 +27,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasaDoCodigo.RelatorioWebAP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasaDoCodigo.IdentityServer", "Item03\CasaDoCodigo.IdentityServer\CasaDoCodigo.IdentityServer.csproj", "{04AB4B2E-ABA0-41AB-9756-7F5C7B20A291}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Item04 - Configurando Identity + Cliente MVC", "Item04 - Configurando Identity + Cliente MVC", "{87CE4367-779E-4EBE-BE68-0ADB72E6A84E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Item04 - Configurando IdentityServer + Cliente MVC", "Item04 - Configurando IdentityServer + Cliente MVC", "{87CE4367-779E-4EBE-BE68-0ADB72E6A84E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasaDoCodigo.MVC", "Item04\CasaDoCodigo\CasaDoCodigo.MVC.csproj", "{01279083-357B-486B-A59B-DF1547252700}"
 EndProject
