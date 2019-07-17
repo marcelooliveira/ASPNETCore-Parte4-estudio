@@ -1,0 +1,17 @@
+﻿@{ 
+    string nomeUsuario = "Fulano de Tal";
+}
+
+@*
+1) usuário logado: boas-vindas e opção sair
+2) usuário desconectado: opção de login
+*@
+
+@if (!string.IsNullOrWhiteSpace(nomeUsuario))
+{
+    <div>Olá, @nomeUsuario <a>sair</a></div>
+}
+else
+{
+    <div>Nenhum usuário conectado. <a>entrar</a></div>
+}
