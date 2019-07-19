@@ -50,6 +50,7 @@ namespace CasaDoCodigo.RelatorioWebAPI
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseAuthentication();
             app.UseMvc();
         }
     }
